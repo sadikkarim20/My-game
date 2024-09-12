@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* حاوية الزر */
+#game {
+    position: relative;
+    height: 100vh; /* ارتفاع كامل النافذة */
+}
+
+/* تصميم الزر */
+#collect-button {
+    width: 100px; /* عرض الزر حسب حجم الصورة */
+    height: 100px; /* ارتفاع الزر حسب حجم الصورة */
+    background-image: url('https://realcowshouse.com/assets/img/logo.png'); /* مسار الصورة */
+    background-size: cover; /* لتغطية الزر بالصورة بالكامل */
+    background-position: center; /* توسيط الصورة */
+    background-repeat: no-repeat; /* منع تكرار الصورة */
+    border: none; /* إزالة الحدود */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+    position: absolute; /* لجعل الزر قابل للتوسيط بسهولة */
+    top: 50%; /* توسيط عمودياً */
+    left: 50%; /* توسيط أفقياً */
+    transform: translate(-50%, -50%); /* تصحيح الموقع ليكون بالضبط في المنتصف */
+}
